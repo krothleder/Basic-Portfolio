@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Relative Paths Assignment 1</title>
+  <title>Basic Portfolio</title>
 
   <!-- Fill in the href to the CSS such that this HTML file can access the CSS. -->
   <!-- Don't move the HTML or CSS file. Use Relative Linking -->
@@ -12,35 +12,61 @@
 </head>
 
 <body>
-  <header>
-    <h1>Kaylynn Rothleder</h1>
-    About | Portfolio |Contact
-  </header>
+ 
+  <div class="nav">
+    <div class="wrap">
+      <div class="name">
+      Kaylynn Rothleder
+      </div>
 
-  <div class="container">
 
-    <section id="main-bio">
+      <div class="links">
+        <ul>
+          <li class="nav-link"><a href="index.html">About</a></li>
+          <li class="nav-link"><a href="portfolio.html">Portfolio</a></li>
+          <li class="nav-link"><a href="contact.html">Contact</a></li>        
+        </ul>
 
-      <h2>Kaylynn Rothleder</h2>
-
-      <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
-
-      <p>Hi I am Kaylynn. I curently work as an electrical engineer and am looking forward to learning more about coding. Some of my interests include, food, yoga, and netflix.<a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-    </section>
-
-    <section id="contact-info">
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-    </section>
+      </div>
+    </div>
   </div>
 
-  <footer id="footer">
-    @copyright2017 Kaylynn Rothleder
-  </footer>
+  <div class="bodycontent">
+    <div class="wrap">
+      <div class="content">
+        <h2>About Me</h2>
+        <hr />
+
+          <img src="assets/images/Profile_pic.jpg" height="150" width="150">
+        
+          <p> Hi my name is Kaylynn!</p>
+
+        
+
+      </div>
+
+      <div class="sidebar">
+        <h3>Connect with Me</h3>
+        <hr />  
+
+                <a href="https://github.com/krothleder">   
+                <img class ="sidebar-icons" src="assets/images/github.png">  
+
+                <a href="https://stackoverflow.com">
+                <img class="sidebar-icons" src="assets/images/stackoverflow.png">
+                
+                <a href="https://www.linkedin.com/in/kaylynn-rothleder-56a870b1/">
+                <img class="sidebar-icons" src="assets/images/linkedin.png">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="wrap">
+      <p>Copyright 2017 Kaylynn Rothleder</p>
+    </div>
+  </div>
 
 </body>
 
