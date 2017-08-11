@@ -37,12 +37,13 @@ input[type=submit] {
 h2 {
 	font-size: 200%;
 	color: #4AAAA5;
-
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 h3 {
 	font-size: 150%;
 	color: #4AAAA5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 p {
@@ -56,7 +57,7 @@ p {
 }
 
 
-.nav {
+nav {
 	background-color: #fff;
 	border-bottom: 2px solid #ddd;
 }
